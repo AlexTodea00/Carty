@@ -1,15 +1,6 @@
-import { Text, View } from "react-native";
+import LoginPage from "./login/LoginPage";
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+  //TODO:  Depending on user Auth state show login or home page
+  return <LoginPage />;
 }
